@@ -4,9 +4,9 @@
 # 20171201-20171207 v1.1 stas630
 #
 #
-ZBX_CONFIG_AGENT="/etc/zabbix/zabbix_agentd.conf"
+ZBX_CONFIG_AGENT="/etc/zabbix/zabbix_agent2.conf"
 # Uncomment if need log
-#LOG="/var/log/zabbix-agent/ceph.log"
+#LOG="/var/log/zabbix/ceph.log"
 #
 #
 CLUSTER_NAME=$1
@@ -21,7 +21,8 @@ case ${OPERATION} in
     ceph --cluster ${CLUSTER_NAME} osd df tree -f json |\
       jq -r '(.nodes[]|select(.type=="osd")|"\(.name) \(.kb_avail / 1048576)"),
         "ceph.spaceavail \(.summary.total_kb_avail / 1048576)",
-        "ceph.spacetotal \(.summary.total_kb / 1048576)"'|\
+        "ceph.spacetotal \(.summary.total_kb / 1048576)",
+        "ceph.spacepooltotal \(.summary.total_kb / 1048576 / 3)"'|\
       awk '
         BEGIN{ print "{\"data\":[" }
         {
