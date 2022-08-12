@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
-    <version>3.4</version>
-    <date>2017-12-07T10:49:23Z</date>
+    <version>4.4</version>
+    <date>2022-08-12T07:01:55Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -11,7 +11,6 @@
         <template>
             <template>Template Ceph</template>
             <name>Template Ceph</name>
-            <description/>
             <groups>
                 <group>
                     <name>Templates</name>
@@ -31,702 +30,263 @@
             <items>
                 <item>
                     <name>Ceph PG activating</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.activating</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG active</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.active</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG backfilling</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.backfilling</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG backfill_toofull</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.backfill_toofull</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG backfill_unfound</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.backfill_unfound</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG wait-backfill</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.backfill_wait</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
                     <description>The placement group is waiting in line to start backfill.</description>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG clean</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.clean</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
                     <description>Ceph replicated all objects in the placement group the correct number of times.</description>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG creating</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.creating</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
                     <description>Ceph is still creating the placement group.</description>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG deep</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.deep</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG degraded</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.degraded</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
                     <description>Ceph has not replicated some objects in the placement group the correct number of times yet.</description>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
+                    <triggers>
+                        <trigger>
+                            <expression>{last(0)}&gt;0</expression>
+                            <name>Ceph cluster has degraded PGs</name>
+                            <priority>WARNING</priority>
+                            <description>Ceph has not replicated some objects in the placement group the correct number of times yet.</description>
+                        </trigger>
+                    </triggers>
                 </item>
                 <item>
                     <name>Ceph PG degraded %</name>
-                    <type>15</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>CALCULATED</type>
                     <key>ceph.degraded_percent</key>
                     <delay>30</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
+                    <value_type>FLOAT</value_type>
                     <units>%</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
                     <params>100*last(&quot;ceph.degraded&quot;)/last(&quot;ceph.pgtotal&quot;)</params>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
                     <description>Ceph has not replicated some objects in the placement group the correct number of times yet.</description>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph Cluster</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG down</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.down</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
                     <description>A replica with necessary data is down, so the placement group is offline.</description>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
+                    <triggers>
+                        <trigger>
+                            <expression>{last(0)}&gt;0</expression>
+                            <name>Ceph cluster has down PGs</name>
+                            <priority>AVERAGE</priority>
+                            <description>At least a replica with necessary data is down, so the placement group is offline.</description>
+                        </trigger>
+                    </triggers>
                 </item>
                 <item>
                     <name>Ceph PG forced_backfill</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.forced_backfill</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG forced_recovery</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.forced_recovery</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph Full Ratio Space</name>
-                    <type>15</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>CALCULATED</type>
                     <key>ceph.fullratio</key>
                     <delay>5m</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
+                    <value_type>FLOAT</value_type>
                     <units>Gb</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
                     <params>last(&quot;ceph.spacetotal&quot;)*{$FULLRATIO}/100</params>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
                     <description>http://docs.ceph.com/docs/master/rados/troubleshooting/troubleshooting-osd/&#13;
 NO FREE DRIVE SPACE&#13;
 &#13;
 Ceph prevents you from writing to a full OSD so that you don’t lose data. In an operational cluster, you should receive a warning when your cluster is getting near its full ratio. The mon osd full ratio defaults to 0.95, or 95% of capacity before it stops clients from writing data. The mon osd nearfull ratio defaults to 0.85, or 85% of capacity when it generates a health warning.&#13;
 &#13;
 Full cluster issues usually arise when testing how Ceph handles an OSD failure on a small cluster. When one node has a high percentage of the cluster’s data, the cluster can easily eclipse its nearfull and full ratio immediately. If you are testing how Ceph reacts to OSD failures on a small cluster, you should leave ample free disk space and consider temporarily lowering the mon osd full ratio and mon osd nearfull ratio.</description>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph Space</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
+                    <triggers>
+                        <trigger>
+                            <expression>{timeleft(86400,,0)}&lt;1d</expression>
+                            <name>Ceph Cluster Used Space will reach FullRatio Mark less than in a day</name>
+                            <priority>HIGH</priority>
+                            <dependencies>
+                                <dependency>
+                                    <name>Ceph Cluster Used Space will reach FullRatio Mark less than in an hour</name>
+                                    <expression>{Template Ceph:ceph.fullratio.timeleft(3600,,0)}&lt;1h</expression>
+                                </dependency>
+                            </dependencies>
+                        </trigger>
+                        <trigger>
+                            <expression>{timeleft(3600,,0)}&lt;1h</expression>
+                            <name>Ceph Cluster Used Space will reach FullRatio Mark less than in an hour</name>
+                            <priority>DISASTER</priority>
+                        </trigger>
+                        <trigger>
+                            <expression>{timeleft(604800,,0)}&lt;1w</expression>
+                            <name>Ceph Cluster Used Space will reach FullRatio Mark less than in a week</name>
+                            <priority>WARNING</priority>
+                            <dependencies>
+                                <dependency>
+                                    <name>Ceph Cluster Used Space will reach FullRatio Mark less than in a day</name>
+                                    <expression>{Template Ceph:ceph.fullratio.timeleft(86400,,0)}&lt;1d</expression>
+                                </dependency>
+                                <dependency>
+                                    <name>Ceph Cluster Used Space will reach FullRatio Mark less than in an hour</name>
+                                    <expression>{Template Ceph:ceph.fullratio.timeleft(3600,,0)}&lt;1h</expression>
+                                </dependency>
+                            </dependencies>
+                        </trigger>
+                    </triggers>
                 </item>
                 <item>
                     <name>Ceph Full Ratio %</name>
-                    <type>15</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>CALCULATED</type>
                     <key>ceph.fullratioprcnt</key>
                     <delay>5m</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
+                    <value_type>FLOAT</value_type>
                     <units>%</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
                     <params>100*last(&quot;ceph.fullratio&quot;)/last(&quot;ceph.spacetotal&quot;)</params>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
                     <description>http://docs.ceph.com/docs/master/rados/troubleshooting/troubleshooting-osd/&#13;
 NO FREE DRIVE SPACE&#13;
 &#13;
 Ceph prevents you from writing to a full OSD so that you don’t lose data. In an operational cluster, you should receive a warning when your cluster is getting near its full ratio. The mon osd full ratio defaults to 0.95, or 95% of capacity before it stops clients from writing data. The mon osd nearfull ratio defaults to 0.85, or 85% of capacity when it generates a health warning.&#13;
 &#13;
 Full cluster issues usually arise when testing how Ceph handles an OSD failure on a small cluster. When one node has a high percentage of the cluster’s data, the cluster can easily eclipse its nearfull and full ratio immediately. If you are testing how Ceph reacts to OSD failures on a small cluster, you should leave ample free disk space and consider temporarily lowering the mon osd full ratio and mon osd nearfull ratio.</description>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph Space</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph Cluster health</name>
-                    <type>0</type>
-                    <snmp_community/>
-                    <snmp_oid/>
                     <key>ceph.health[{$CLUSTER_NAME},health,{HOST.HOST}]</key>
                     <delay>30s</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
                     <description>HEALTH_OK: 1&#13;
 HEALTH_WARN: 2&#13;
 HEALTH_ERR: 0</description>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph Cluster</name>
@@ -735,1397 +295,531 @@ HEALTH_ERR: 0</description>
                     <valuemap>
                         <name>Ceph Cluster Status</name>
                     </valuemap>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG incomplete</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.incomplete</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
                     <description>Ceph detects that a placement group is missing a necessary period of history from its log. If you see this state, report a bug, and try to start any failed OSDs that may contain the needed information.</description>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG inconsistent</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.inconsistent</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
                     <description>Ceph detects inconsistencies in the one or more replicas of an object in the placement group (e.g. objects are the wrong size, objects are missing from one replica after recovery finished, etc.).</description>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph MON Count</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.moncount</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph Cluster</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph NearFull Ratio Space</name>
-                    <type>15</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>CALCULATED</type>
                     <key>ceph.nearfullratio</key>
                     <delay>5m</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
+                    <value_type>FLOAT</value_type>
                     <units>Gb</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
                     <params>(last(&quot;ceph.spacetotal&quot;)-last(&quot;ceph.spacetotal&quot;)/last(&quot;ceph.osdcount&quot;))*{$FULLRATIO}/100</params>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
                     <description>http://docs.ceph.com/docs/master/rados/troubleshooting/troubleshooting-osd/&#13;
 NO FREE DRIVE SPACE&#13;
 &#13;
 Ceph prevents you from writing to a full OSD so that you don’t lose data. In an operational cluster, you should receive a warning when your cluster is getting near its full ratio. The mon osd full ratio defaults to 0.95, or 95% of capacity before it stops clients from writing data. The mon osd nearfull ratio defaults to 0.85, or 85% of capacity when it generates a health warning.&#13;
 &#13;
 Full cluster issues usually arise when testing how Ceph handles an OSD failure on a small cluster. When one node has a high percentage of the cluster’s data, the cluster can easily eclipse its nearfull and full ratio immediately. If you are testing how Ceph reacts to OSD failures on a small cluster, you should leave ample free disk space and consider temporarily lowering the mon osd full ratio and mon osd nearfull ratio.</description>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph Space</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
+                    <triggers>
+                        <trigger>
+                            <expression>{timeleft(86400,,0)}&lt;1d</expression>
+                            <name>Ceph Cluster Used Space will reach NearFullRatio Mark less than in a day</name>
+                            <priority>HIGH</priority>
+                            <dependencies>
+                                <dependency>
+                                    <name>Ceph Cluster Used Space will reach NearFullRatio Mark less than in an hour</name>
+                                    <expression>{Template Ceph:ceph.nearfullratio.timeleft(3600,,0)}&lt;1h</expression>
+                                </dependency>
+                            </dependencies>
+                        </trigger>
+                        <trigger>
+                            <expression>{timeleft(2592000,,0)}&lt;30d</expression>
+                            <name>Ceph Cluster Used Space will reach NearFullRatio Mark less than in a month</name>
+                            <priority>INFO</priority>
+                            <dependencies>
+                                <dependency>
+                                    <name>Ceph Cluster Used Space will reach NearFullRatio Mark less than in a day</name>
+                                    <expression>{Template Ceph:ceph.nearfullratio.timeleft(86400,,0)}&lt;1d</expression>
+                                </dependency>
+                                <dependency>
+                                    <name>Ceph Cluster Used Space will reach NearFullRatio Mark less than in an hour</name>
+                                    <expression>{Template Ceph:ceph.nearfullratio.timeleft(3600,,0)}&lt;1h</expression>
+                                </dependency>
+                                <dependency>
+                                    <name>Ceph Cluster Used Space will reach NearFullRatio Mark less than in a week</name>
+                                    <expression>{Template Ceph:ceph.nearfullratio.timeleft(604800,,0)}&lt;1w</expression>
+                                </dependency>
+                            </dependencies>
+                        </trigger>
+                        <trigger>
+                            <expression>{timeleft(3600,,0)}&lt;1h</expression>
+                            <name>Ceph Cluster Used Space will reach NearFullRatio Mark less than in an hour</name>
+                            <priority>DISASTER</priority>
+                        </trigger>
+                        <trigger>
+                            <expression>{timeleft(604800,,0)}&lt;1w</expression>
+                            <name>Ceph Cluster Used Space will reach NearFullRatio Mark less than in a week</name>
+                            <priority>WARNING</priority>
+                            <dependencies>
+                                <dependency>
+                                    <name>Ceph Cluster Used Space will reach NearFullRatio Mark less than in a day</name>
+                                    <expression>{Template Ceph:ceph.nearfullratio.timeleft(86400,,0)}&lt;1d</expression>
+                                </dependency>
+                                <dependency>
+                                    <name>Ceph Cluster Used Space will reach NearFullRatio Mark less than in an hour</name>
+                                    <expression>{Template Ceph:ceph.nearfullratio.timeleft(3600,,0)}&lt;1h</expression>
+                                </dependency>
+                            </dependencies>
+                        </trigger>
+                    </triggers>
                 </item>
                 <item>
                     <name>Ceph NearFull Ratio %</name>
-                    <type>15</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>CALCULATED</type>
                     <key>ceph.nearfullratioprcnt</key>
                     <delay>5m</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
+                    <value_type>FLOAT</value_type>
                     <units>%</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
                     <params>100*last(&quot;ceph.nearfullratio&quot;)/last(&quot;ceph.spacetotal&quot;)</params>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
                     <description>http://docs.ceph.com/docs/master/rados/troubleshooting/troubleshooting-osd/&#13;
 NO FREE DRIVE SPACE&#13;
 &#13;
 Ceph prevents you from writing to a full OSD so that you don’t lose data. In an operational cluster, you should receive a warning when your cluster is getting near its full ratio. The mon osd full ratio defaults to 0.95, or 95% of capacity before it stops clients from writing data. The mon osd nearfull ratio defaults to 0.85, or 85% of capacity when it generates a health warning.&#13;
 &#13;
 Full cluster issues usually arise when testing how Ceph handles an OSD failure on a small cluster. When one node has a high percentage of the cluster’s data, the cluster can easily eclipse its nearfull and full ratio immediately. If you are testing how Ceph reacts to OSD failures on a small cluster, you should leave ample free disk space and consider temporarily lowering the mon osd full ratio and mon osd nearfull ratio.</description>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph Space</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph OSD in</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.num_in_osds</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph Cluster</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph OSD up</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.num_up_osds</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph Cluster</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph Operation Read</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.opsread</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
                     <units>op/s</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph Cluster</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph Operation Write</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.opswrite</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
                     <units>op/s</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph Cluster</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph OSD Count</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.osdcount</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph Space</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph OSD in %</name>
-                    <type>15</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>CALCULATED</type>
                     <key>ceph.osd_in</key>
                     <delay>30</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
+                    <value_type>FLOAT</value_type>
                     <units>%</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
                     <params>100*last(&quot;ceph.num_in_osds&quot;)/last(&quot;ceph.osdcount&quot;)</params>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph Cluster</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph OSD up %</name>
-                    <type>15</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>CALCULATED</type>
                     <key>ceph.osd_up</key>
                     <delay>30</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
+                    <value_type>FLOAT</value_type>
                     <units>%</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
                     <params>100*last(&quot;ceph.num_up_osds&quot;)/last(&quot;ceph.osdcount&quot;)</params>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph Cluster</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG peered</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.peered</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG peering</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.peering</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
                     <description>The placement group is undergoing the peering process</description>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG total</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.pgtotal</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
                     <description>Ceph total placement group number.</description>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph Cluster</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph Read Speed</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.rdbps</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
                     <units>B/s</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph Cluster</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG recovering</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.recovering</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
                     <description>Ceph is migrating/synchronizing objects and their replicas.</description>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG recovery_toofull</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.recovery_toofull</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG recovery_unfound</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.recovery_unfound</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG recovery_wait</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.recovery_wait</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG remapped</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.remapped</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
                     <description>The placement group is temporarily mapped to a different set of OSDs from what CRUSH specified.</description>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG repair</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.repair</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
                     <description>Ceph is checking the placement group and repairing any inconsistencies it finds (if possible).</description>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG scrubbing</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.scrubbing</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
                     <description>Ceph is checking the placement group for inconsistencies.</description>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG snaptrim</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.snaptrim</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG snaptrim_error</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.snaptrim_error</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG snaptrim_wait</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.snaptrim_wait</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph Space Available</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.spaceavail</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
+                    <value_type>FLOAT</value_type>
                     <units>Gb</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph Space</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
+                    <triggers>
+                        <trigger>
+                            <expression>{timeleft(86400,,0)}&lt;1h</expression>
+                            <name>Ceph Cluster Space timeleft is less than a day</name>
+                            <priority>HIGH</priority>
+                            <dependencies>
+                                <dependency>
+                                    <name>Ceph Cluster Space timeleft is less than a hour</name>
+                                    <expression>{Template Ceph:ceph.spaceavail.timeleft(3600,,0)}&lt;1h</expression>
+                                </dependency>
+                            </dependencies>
+                        </trigger>
+                        <trigger>
+                            <expression>{timeleft(3600,,0)}&lt;1h</expression>
+                            <name>Ceph Cluster Space timeleft is less than a hour</name>
+                            <priority>DISASTER</priority>
+                        </trigger>
+                        <trigger>
+                            <expression>{timeleft(604800,,0)}&lt;1w</expression>
+                            <name>Ceph Cluster Space timeleft is less than a week</name>
+                            <priority>WARNING</priority>
+                            <dependencies>
+                                <dependency>
+                                    <name>Ceph Cluster Space timeleft is less than a hour</name>
+                                    <expression>{Template Ceph:ceph.spaceavail.timeleft(3600,,0)}&lt;1h</expression>
+                                </dependency>
+                                <dependency>
+                                    <name>Ceph Cluster Used Space will reach FullRatio Mark less than in a day</name>
+                                    <expression>{Template Ceph:ceph.fullratio.timeleft(86400,,0)}&lt;1d</expression>
+                                </dependency>
+                            </dependencies>
+                        </trigger>
+                        <trigger>
+                            <expression>{timeleft(2592000,,0)}&lt;30d</expression>
+                            <name>Ceph Cluster Space timeleft is less than a week</name>
+                            <priority>INFO</priority>
+                            <dependencies>
+                                <dependency>
+                                    <name>Ceph Cluster Space timeleft is less than a hour</name>
+                                    <expression>{Template Ceph:ceph.spaceavail.timeleft(3600,,0)}&lt;1h</expression>
+                                </dependency>
+                                <dependency>
+                                    <name>Ceph Cluster Space timeleft is less than a week</name>
+                                    <expression>{Template Ceph:ceph.spaceavail.timeleft(604800,,0)}&lt;1w</expression>
+                                </dependency>
+                                <dependency>
+                                    <name>Ceph Cluster Used Space will reach FullRatio Mark less than in a day</name>
+                                    <expression>{Template Ceph:ceph.fullratio.timeleft(86400,,0)}&lt;1d</expression>
+                                </dependency>
+                            </dependencies>
+                        </trigger>
+                    </triggers>
+                </item>
+                <item>
+                    <name>Ceph Pool Space Total</name>
+                    <type>TRAP</type>
+                    <key>ceph.spacepooltotal</key>
+                    <delay>0</delay>
+                    <value_type>FLOAT</value_type>
+                    <units>Gb</units>
+                    <applications>
+                        <application>
+                            <name>Ceph Space</name>
+                        </application>
+                    </applications>
                 </item>
                 <item>
                     <name>Ceph Space Total</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.spacetotal</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
+                    <value_type>FLOAT</value_type>
                     <units>Gb</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph Space</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph Space Used</name>
-                    <type>15</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>CALCULATED</type>
                     <key>ceph.spaceused</key>
                     <delay>5m</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
+                    <value_type>FLOAT</value_type>
                     <units>Gb</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
                     <params>last(&quot;ceph.spacetotal&quot;)-last(&quot;ceph.spaceavail&quot;)</params>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph Space</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG stale</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.stale</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
                     <description>The placement group is in an unknown state - the monitors have not received an update for it since the placement group mapping changed.</description>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph PG undersized</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.undersized</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph pg</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
                 <item>
                     <name>Ceph Write Speed</name>
-                    <type>2</type>
-                    <snmp_community/>
-                    <snmp_oid/>
+                    <type>TRAP</type>
                     <key>ceph.wrbps</key>
                     <delay>0</delay>
-                    <history>90d</history>
-                    <trends>365d</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
                     <units>B/s</units>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
                     <applications>
                         <application>
                             <name>Ceph Cluster</name>
                         </application>
                     </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                    <preprocessing/>
-                    <jmx_endpoint/>
-                    <master_item/>
                 </item>
             </items>
             <discovery_rules>
                 <discovery_rule>
                     <name>MON</name>
-                    <type>0</type>
-                    <snmp_community/>
-                    <snmp_oid/>
                     <key>ceph-mon-discovery[{$CLUSTER_NAME},mons,{HOST.HOST}]</key>
-                    <delay>1m</delay>
-                    <status>0</status>
-                    <allowed_hosts/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <filter>
-                        <evaltype>0</evaltype>
-                        <formula/>
-                        <conditions/>
-                    </filter>
-                    <lifetime>30d</lifetime>
-                    <description/>
                     <item_prototypes>
                         <item_prototype>
                             <name>{#MON}: Status</name>
-                            <type>2</type>
-                            <snmp_community/>
-                            <snmp_oid/>
+                            <type>TRAP</type>
                             <key>ceph.monstatus[{#MON}]</key>
                             <delay>0</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>3</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
                                     <name>Ceph Cluster</name>
@@ -2134,122 +828,31 @@ Full cluster issues usually arise when testing how Ceph handles an OSD failure o
                             <valuemap>
                                 <name>Ceph Daemon Status</name>
                             </valuemap>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <application_prototypes/>
-                            <master_item_prototype/>
                         </item_prototype>
                     </item_prototypes>
-                    <trigger_prototypes/>
-                    <graph_prototypes/>
-                    <host_prototypes/>
-                    <jmx_endpoint/>
                 </discovery_rule>
                 <discovery_rule>
                     <name>OSD</name>
-                    <type>0</type>
-                    <snmp_community/>
-                    <snmp_oid/>
                     <key>ceph-osd-discovery[{$CLUSTER_NAME},osds,{HOST.HOST}]</key>
-                    <delay>1m</delay>
-                    <status>0</status>
-                    <allowed_hosts/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <filter>
-                        <evaltype>0</evaltype>
-                        <formula/>
-                        <conditions/>
-                    </filter>
-                    <lifetime>30d</lifetime>
-                    <description/>
                     <item_prototypes>
                         <item_prototype>
                             <name>{#OSD} : Space Available</name>
-                            <type>2</type>
-                            <snmp_community/>
-                            <snmp_oid/>
+                            <type>TRAP</type>
                             <key>ceph.osdspaceavail[{#OSD}]</key>
                             <delay>0</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
+                            <value_type>FLOAT</value_type>
                             <units>Gb</units>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
                                     <name>Ceph Space</name>
                                 </application>
                             </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <application_prototypes/>
-                            <master_item_prototype/>
                         </item_prototype>
                         <item_prototype>
                             <name>{#OSD}: Status</name>
-                            <type>2</type>
-                            <snmp_community/>
-                            <snmp_oid/>
+                            <type>TRAP</type>
                             <key>ceph.osdstatus[{#OSD}]</key>
                             <delay>0</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>3</value_type>
-                            <allowed_hosts/>
-                            <units/>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
                                     <name>Ceph Cluster</name>
@@ -2258,117 +861,65 @@ Full cluster issues usually arise when testing how Ceph handles an OSD failure o
                             <valuemap>
                                 <name>Ceph Daemon Status</name>
                             </valuemap>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <application_prototypes/>
-                            <master_item_prototype/>
                         </item_prototype>
                     </item_prototypes>
-                    <trigger_prototypes/>
-                    <graph_prototypes/>
-                    <host_prototypes/>
-                    <jmx_endpoint/>
                 </discovery_rule>
                 <discovery_rule>
                     <name>POOL</name>
-                    <type>0</type>
-                    <snmp_community/>
-                    <snmp_oid/>
                     <key>ceph-pools-discovery[{$CLUSTER_NAME},pools,{HOST.HOST}]</key>
-                    <delay>1m</delay>
-                    <status>0</status>
-                    <allowed_hosts/>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <filter>
-                        <evaltype>0</evaltype>
-                        <formula/>
-                        <conditions/>
-                    </filter>
-                    <lifetime>30d</lifetime>
-                    <description/>
                     <item_prototypes>
                         <item_prototype>
                             <name>Space Available : {#POOL}</name>
-                            <type>2</type>
-                            <snmp_community/>
-                            <snmp_oid/>
+                            <type>TRAP</type>
                             <key>ceph.poolspaceavail[{#POOL}]</key>
                             <delay>0</delay>
-                            <history>90d</history>
-                            <trends>365d</trends>
-                            <status>0</status>
-                            <value_type>0</value_type>
-                            <allowed_hosts/>
+                            <value_type>FLOAT</value_type>
                             <units>Gb</units>
-                            <snmpv3_contextname/>
-                            <snmpv3_securityname/>
-                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                            <snmpv3_authpassphrase/>
-                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                            <snmpv3_privpassphrase/>
-                            <params/>
-                            <ipmi_sensor/>
-                            <authtype>0</authtype>
-                            <username/>
-                            <password/>
-                            <publickey/>
-                            <privatekey/>
-                            <port/>
-                            <description/>
-                            <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
                                     <name>Ceph Space</name>
                                 </application>
                             </applications>
-                            <valuemap/>
-                            <logtimefmt/>
-                            <preprocessing/>
-                            <jmx_endpoint/>
-                            <application_prototypes/>
-                            <master_item_prototype/>
+                            <trigger_prototypes>
+                                <trigger_prototype>
+                                    <expression>{last()}&lt;{$SPACEAVAIL_POOL_HIGH}</expression>
+                                    <name>Ceph Cluster: {#POOL} : Space Available is less than {$SPACEAVAIL_POOL_HIGH}</name>
+                                    <priority>HIGH</priority>
+                                </trigger_prototype>
+                            </trigger_prototypes>
                         </item_prototype>
                     </item_prototypes>
-                    <trigger_prototypes>
-                        <trigger_prototype>
-                            <expression>{Template Ceph:ceph.poolspaceavail[{#POOL}].last()}&lt;{$SPACEAVAIL_POOL_HIGH}</expression>
-                            <recovery_mode>0</recovery_mode>
-                            <recovery_expression/>
-                            <name>Ceph Cluster: {#POOL} : Space Available is less than {$SPACEAVAIL_POOL_HIGH}</name>
-                            <correlation_mode>0</correlation_mode>
-                            <correlation_tag/>
-                            <url/>
-                            <status>0</status>
-                            <priority>4</priority>
-                            <description/>
-                            <type>0</type>
-                            <manual_close>0</manual_close>
-                            <dependencies/>
-                            <tags/>
-                        </trigger_prototype>
-                    </trigger_prototypes>
-                    <graph_prototypes/>
-                    <host_prototypes/>
-                    <jmx_endpoint/>
+                    <graph_prototypes>
+                        <graph_prototype>
+                            <name>Ceph pool {#POOL} space usage</name>
+                            <width>400</width>
+                            <height>300</height>
+                            <yaxismax>0.0000</yaxismax>
+                            <show_work_period>NO</show_work_period>
+                            <show_triggers>NO</show_triggers>
+                            <type>PIE</type>
+                            <show_3d>YES</show_3d>
+                            <graph_items>
+                                <graph_item>
+                                    <color>FF0000</color>
+                                    <item>
+                                        <host>Template Ceph</host>
+                                        <key>ceph.spacepooltotal</key>
+                                    </item>
+                                </graph_item>
+                                <graph_item>
+                                    <sortorder>1</sortorder>
+                                    <color>00FF00</color>
+                                    <item>
+                                        <host>Template Ceph</host>
+                                        <key>ceph.poolspaceavail[{#POOL}]</key>
+                                    </item>
+                                </graph_item>
+                            </graph_items>
+                        </graph_prototype>
+                    </graph_prototypes>
                 </discovery_rule>
             </discovery_rules>
-            <httptests/>
             <macros>
                 <macro>
                     <macro>{$CLUSTER_NAME}</macro>
@@ -2395,389 +946,39 @@ Full cluster issues usually arise when testing how Ceph handles an OSD failure o
                     <value>0.2</value>
                 </macro>
             </macros>
-            <templates/>
-            <screens/>
         </template>
     </templates>
     <triggers>
         <trigger>
-            <expression>{Template Ceph:ceph.degraded.last(0)}&gt;0</expression>
-            <recovery_mode>0</recovery_mode>
-            <recovery_expression/>
-            <name>Ceph cluster has degraded PGs</name>
-            <correlation_mode>0</correlation_mode>
-            <correlation_tag/>
-            <url/>
-            <status>0</status>
-            <priority>2</priority>
-            <description>Ceph has not replicated some objects in the placement group the correct number of times yet.</description>
-            <type>0</type>
-            <manual_close>0</manual_close>
-            <dependencies/>
-            <tags/>
-        </trigger>
-        <trigger>
-            <expression>{Template Ceph:ceph.down.last(0)}&gt;0</expression>
-            <recovery_mode>0</recovery_mode>
-            <recovery_expression/>
-            <name>Ceph cluster has down PGs</name>
-            <correlation_mode>0</correlation_mode>
-            <correlation_tag/>
-            <url/>
-            <status>0</status>
-            <priority>3</priority>
-            <description>At least a replica with necessary data is down, so the placement group is offline.</description>
-            <type>0</type>
-            <manual_close>0</manual_close>
-            <dependencies/>
-            <tags/>
-        </trigger>
-        <trigger>
             <expression>{Template Ceph:ceph.spaceavail.last()}/{Template Ceph:ceph.spacetotal.last()}&lt;{$SPACEAVAIL_HIGH}</expression>
-            <recovery_mode>0</recovery_mode>
-            <recovery_expression/>
             <name>Ceph Cluster SpaceAvail is less than 5%</name>
-            <correlation_mode>0</correlation_mode>
-            <correlation_tag/>
-            <url/>
-            <status>0</status>
-            <priority>4</priority>
-            <description/>
-            <type>0</type>
-            <manual_close>0</manual_close>
-            <dependencies/>
-            <tags/>
+            <priority>HIGH</priority>
         </trigger>
         <trigger>
             <expression>{Template Ceph:ceph.spaceavail.last()}/{Template Ceph:ceph.spacetotal.last()}&lt;{$SPACEAVAIL_AVERAGE}</expression>
-            <recovery_mode>0</recovery_mode>
-            <recovery_expression/>
             <name>Ceph Cluster SpaceAvail is less than 10%</name>
-            <correlation_mode>0</correlation_mode>
-            <correlation_tag/>
-            <url/>
-            <status>0</status>
-            <priority>3</priority>
-            <description/>
-            <type>0</type>
-            <manual_close>0</manual_close>
-            <dependencies/>
-            <tags/>
+            <priority>AVERAGE</priority>
         </trigger>
         <trigger>
             <expression>{Template Ceph:ceph.spaceavail.last()}/{Template Ceph:ceph.spacetotal.last()}&lt;{$SPACEAVAIL_WARNING}</expression>
-            <recovery_mode>0</recovery_mode>
-            <recovery_expression/>
             <name>Ceph Cluster SpaceAvail is less than 15%</name>
-            <correlation_mode>0</correlation_mode>
-            <correlation_tag/>
-            <url/>
-            <status>0</status>
-            <priority>2</priority>
-            <description/>
-            <type>0</type>
-            <manual_close>0</manual_close>
-            <dependencies/>
-            <tags/>
-        </trigger>
-        <trigger>
-            <expression>{Template Ceph:ceph.spaceavail.timeleft(86400,,0)}&lt;1h</expression>
-            <recovery_mode>0</recovery_mode>
-            <recovery_expression/>
-            <name>Ceph Cluster Space timeleft is less than a day</name>
-            <correlation_mode>0</correlation_mode>
-            <correlation_tag/>
-            <url/>
-            <status>0</status>
-            <priority>4</priority>
-            <description/>
-            <type>0</type>
-            <manual_close>0</manual_close>
-            <dependencies>
-                <dependency>
-                    <name>Ceph Cluster Space timeleft is less than a hour</name>
-                    <expression>{Template Ceph:ceph.spaceavail.timeleft(3600,,0)}&lt;1h</expression>
-                    <recovery_expression/>
-                </dependency>
-            </dependencies>
-            <tags/>
-        </trigger>
-        <trigger>
-            <expression>{Template Ceph:ceph.spaceavail.timeleft(3600,,0)}&lt;1h</expression>
-            <recovery_mode>0</recovery_mode>
-            <recovery_expression/>
-            <name>Ceph Cluster Space timeleft is less than a hour</name>
-            <correlation_mode>0</correlation_mode>
-            <correlation_tag/>
-            <url/>
-            <status>0</status>
-            <priority>5</priority>
-            <description/>
-            <type>0</type>
-            <manual_close>0</manual_close>
-            <dependencies/>
-            <tags/>
-        </trigger>
-        <trigger>
-            <expression>{Template Ceph:ceph.spaceavail.timeleft(604800,,0)}&lt;1w</expression>
-            <recovery_mode>0</recovery_mode>
-            <recovery_expression/>
-            <name>Ceph Cluster Space timeleft is less than a week</name>
-            <correlation_mode>0</correlation_mode>
-            <correlation_tag/>
-            <url/>
-            <status>0</status>
-            <priority>2</priority>
-            <description/>
-            <type>0</type>
-            <manual_close>0</manual_close>
-            <dependencies>
-                <dependency>
-                    <name>Ceph Cluster Space timeleft is less than a hour</name>
-                    <expression>{Template Ceph:ceph.spaceavail.timeleft(3600,,0)}&lt;1h</expression>
-                    <recovery_expression/>
-                </dependency>
-                <dependency>
-                    <name>Ceph Cluster Used Space will reach FullRatio Mark less than in a day</name>
-                    <expression>{Template Ceph:ceph.fullratio.timeleft(86400,,0)}&lt;1d</expression>
-                    <recovery_expression/>
-                </dependency>
-            </dependencies>
-            <tags/>
-        </trigger>
-        <trigger>
-            <expression>{Template Ceph:ceph.spaceavail.timeleft(2592000,,0)}&lt;30d</expression>
-            <recovery_mode>0</recovery_mode>
-            <recovery_expression/>
-            <name>Ceph Cluster Space timeleft is less than a week</name>
-            <correlation_mode>0</correlation_mode>
-            <correlation_tag/>
-            <url/>
-            <status>0</status>
-            <priority>1</priority>
-            <description/>
-            <type>0</type>
-            <manual_close>0</manual_close>
-            <dependencies>
-                <dependency>
-                    <name>Ceph Cluster Space timeleft is less than a hour</name>
-                    <expression>{Template Ceph:ceph.spaceavail.timeleft(3600,,0)}&lt;1h</expression>
-                    <recovery_expression/>
-                </dependency>
-                <dependency>
-                    <name>Ceph Cluster Space timeleft is less than a week</name>
-                    <expression>{Template Ceph:ceph.spaceavail.timeleft(604800,,0)}&lt;1w</expression>
-                    <recovery_expression/>
-                </dependency>
-                <dependency>
-                    <name>Ceph Cluster Used Space will reach FullRatio Mark less than in a day</name>
-                    <expression>{Template Ceph:ceph.fullratio.timeleft(86400,,0)}&lt;1d</expression>
-                    <recovery_expression/>
-                </dependency>
-            </dependencies>
-            <tags/>
-        </trigger>
-        <trigger>
-            <expression>{Template Ceph:ceph.fullratio.timeleft(86400,,0)}&lt;1d</expression>
-            <recovery_mode>0</recovery_mode>
-            <recovery_expression/>
-            <name>Ceph Cluster Used Space will reach FullRatio Mark less than in a day</name>
-            <correlation_mode>0</correlation_mode>
-            <correlation_tag/>
-            <url/>
-            <status>0</status>
-            <priority>4</priority>
-            <description/>
-            <type>0</type>
-            <manual_close>0</manual_close>
-            <dependencies>
-                <dependency>
-                    <name>Ceph Cluster Used Space will reach FullRatio Mark less than in an hour</name>
-                    <expression>{Template Ceph:ceph.fullratio.timeleft(3600,,0)}&lt;1h</expression>
-                    <recovery_expression/>
-                </dependency>
-            </dependencies>
-            <tags/>
-        </trigger>
-        <trigger>
-            <expression>{Template Ceph:ceph.fullratio.timeleft(3600,,0)}&lt;1h</expression>
-            <recovery_mode>0</recovery_mode>
-            <recovery_expression/>
-            <name>Ceph Cluster Used Space will reach FullRatio Mark less than in an hour</name>
-            <correlation_mode>0</correlation_mode>
-            <correlation_tag/>
-            <url/>
-            <status>0</status>
-            <priority>5</priority>
-            <description/>
-            <type>0</type>
-            <manual_close>0</manual_close>
-            <dependencies/>
-            <tags/>
-        </trigger>
-        <trigger>
-            <expression>{Template Ceph:ceph.fullratio.timeleft(604800,,0)}&lt;1w</expression>
-            <recovery_mode>0</recovery_mode>
-            <recovery_expression/>
-            <name>Ceph Cluster Used Space will reach FullRatio Mark less than in a week</name>
-            <correlation_mode>0</correlation_mode>
-            <correlation_tag/>
-            <url/>
-            <status>0</status>
-            <priority>2</priority>
-            <description/>
-            <type>0</type>
-            <manual_close>0</manual_close>
-            <dependencies>
-                <dependency>
-                    <name>Ceph Cluster Used Space will reach FullRatio Mark less than in a day</name>
-                    <expression>{Template Ceph:ceph.fullratio.timeleft(86400,,0)}&lt;1d</expression>
-                    <recovery_expression/>
-                </dependency>
-                <dependency>
-                    <name>Ceph Cluster Used Space will reach FullRatio Mark less than in an hour</name>
-                    <expression>{Template Ceph:ceph.fullratio.timeleft(3600,,0)}&lt;1h</expression>
-                    <recovery_expression/>
-                </dependency>
-            </dependencies>
-            <tags/>
-        </trigger>
-        <trigger>
-            <expression>{Template Ceph:ceph.nearfullratio.timeleft(86400,,0)}&lt;1d</expression>
-            <recovery_mode>0</recovery_mode>
-            <recovery_expression/>
-            <name>Ceph Cluster Used Space will reach NearFullRatio Mark less than in a day</name>
-            <correlation_mode>0</correlation_mode>
-            <correlation_tag/>
-            <url/>
-            <status>0</status>
-            <priority>4</priority>
-            <description/>
-            <type>0</type>
-            <manual_close>0</manual_close>
-            <dependencies>
-                <dependency>
-                    <name>Ceph Cluster Used Space will reach NearFullRatio Mark less than in an hour</name>
-                    <expression>{Template Ceph:ceph.nearfullratio.timeleft(3600,,0)}&lt;1h</expression>
-                    <recovery_expression/>
-                </dependency>
-            </dependencies>
-            <tags/>
-        </trigger>
-        <trigger>
-            <expression>{Template Ceph:ceph.nearfullratio.timeleft(2592000,,0)}&lt;30d</expression>
-            <recovery_mode>0</recovery_mode>
-            <recovery_expression/>
-            <name>Ceph Cluster Used Space will reach NearFullRatio Mark less than in a month</name>
-            <correlation_mode>0</correlation_mode>
-            <correlation_tag/>
-            <url/>
-            <status>0</status>
-            <priority>1</priority>
-            <description/>
-            <type>0</type>
-            <manual_close>0</manual_close>
-            <dependencies>
-                <dependency>
-                    <name>Ceph Cluster Used Space will reach NearFullRatio Mark less than in a day</name>
-                    <expression>{Template Ceph:ceph.nearfullratio.timeleft(86400,,0)}&lt;1d</expression>
-                    <recovery_expression/>
-                </dependency>
-                <dependency>
-                    <name>Ceph Cluster Used Space will reach NearFullRatio Mark less than in an hour</name>
-                    <expression>{Template Ceph:ceph.nearfullratio.timeleft(3600,,0)}&lt;1h</expression>
-                    <recovery_expression/>
-                </dependency>
-                <dependency>
-                    <name>Ceph Cluster Used Space will reach NearFullRatio Mark less than in a week</name>
-                    <expression>{Template Ceph:ceph.nearfullratio.timeleft(604800,,0)}&lt;1w</expression>
-                    <recovery_expression/>
-                </dependency>
-            </dependencies>
-            <tags/>
-        </trigger>
-        <trigger>
-            <expression>{Template Ceph:ceph.nearfullratio.timeleft(3600,,0)}&lt;1h</expression>
-            <recovery_mode>0</recovery_mode>
-            <recovery_expression/>
-            <name>Ceph Cluster Used Space will reach NearFullRatio Mark less than in an hour</name>
-            <correlation_mode>0</correlation_mode>
-            <correlation_tag/>
-            <url/>
-            <status>0</status>
-            <priority>5</priority>
-            <description/>
-            <type>0</type>
-            <manual_close>0</manual_close>
-            <dependencies/>
-            <tags/>
-        </trigger>
-        <trigger>
-            <expression>{Template Ceph:ceph.nearfullratio.timeleft(604800,,0)}&lt;1w</expression>
-            <recovery_mode>0</recovery_mode>
-            <recovery_expression/>
-            <name>Ceph Cluster Used Space will reach NearFullRatio Mark less than in a week</name>
-            <correlation_mode>0</correlation_mode>
-            <correlation_tag/>
-            <url/>
-            <status>0</status>
-            <priority>2</priority>
-            <description/>
-            <type>0</type>
-            <manual_close>0</manual_close>
-            <dependencies>
-                <dependency>
-                    <name>Ceph Cluster Used Space will reach NearFullRatio Mark less than in a day</name>
-                    <expression>{Template Ceph:ceph.nearfullratio.timeleft(86400,,0)}&lt;1d</expression>
-                    <recovery_expression/>
-                </dependency>
-                <dependency>
-                    <name>Ceph Cluster Used Space will reach NearFullRatio Mark less than in an hour</name>
-                    <expression>{Template Ceph:ceph.nearfullratio.timeleft(3600,,0)}&lt;1h</expression>
-                    <recovery_expression/>
-                </dependency>
-            </dependencies>
-            <tags/>
+            <priority>WARNING</priority>
         </trigger>
     </triggers>
     <graphs>
         <graph>
             <name>Ceph Load</name>
-            <width>900</width>
-            <height>200</height>
-            <yaxismin>0.0000</yaxismin>
-            <yaxismax>100.0000</yaxismax>
-            <show_work_period>1</show_work_period>
-            <show_triggers>1</show_triggers>
-            <type>0</type>
-            <show_legend>1</show_legend>
-            <show_3d>0</show_3d>
-            <percent_left>0.0000</percent_left>
-            <percent_right>0.0000</percent_right>
-            <ymin_type_1>1</ymin_type_1>
-            <ymax_type_1>0</ymax_type_1>
-            <ymin_item_1>0</ymin_item_1>
-            <ymax_item_1>0</ymax_item_1>
+            <ymin_type_1>FIXED</ymin_type_1>
             <graph_items>
                 <graph_item>
-                    <sortorder>0</sortorder>
-                    <drawtype>0</drawtype>
                     <color>0000C8</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
                     <item>
                         <host>Template Ceph</host>
                         <key>ceph.rdbps</key>
                     </item>
                 </graph_item>
                 <graph_item>
-                    <sortorder>0</sortorder>
-                    <drawtype>0</drawtype>
                     <color>00C800</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
                     <item>
                         <host>Template Ceph</host>
                         <key>ceph.wrbps</key>
@@ -2785,11 +986,9 @@ Full cluster issues usually arise when testing how Ceph handles an OSD failure o
                 </graph_item>
                 <graph_item>
                     <sortorder>1</sortorder>
-                    <drawtype>1</drawtype>
+                    <drawtype>FILLED_REGION</drawtype>
                     <color>C80000</color>
-                    <yaxisside>1</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
+                    <yaxisside>RIGHT</yaxisside>
                     <item>
                         <host>Template Ceph</host>
                         <key>ceph.opsread</key>
@@ -2799,29 +998,11 @@ Full cluster issues usually arise when testing how Ceph handles an OSD failure o
         </graph>
         <graph>
             <name>Degraded %</name>
-            <width>900</width>
-            <height>200</height>
-            <yaxismin>0.0000</yaxismin>
-            <yaxismax>100.0000</yaxismax>
-            <show_work_period>1</show_work_period>
-            <show_triggers>1</show_triggers>
-            <type>0</type>
-            <show_legend>1</show_legend>
-            <show_3d>0</show_3d>
-            <percent_left>0.0000</percent_left>
-            <percent_right>0.0000</percent_right>
-            <ymin_type_1>1</ymin_type_1>
-            <ymax_type_1>0</ymax_type_1>
-            <ymin_item_1>0</ymin_item_1>
-            <ymax_item_1>0</ymax_item_1>
+            <ymin_type_1>FIXED</ymin_type_1>
             <graph_items>
                 <graph_item>
-                    <sortorder>0</sortorder>
-                    <drawtype>5</drawtype>
+                    <drawtype>GRADIENT_LINE</drawtype>
                     <color>CC0000</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
                     <item>
                         <host>Template Ceph</host>
                         <key>ceph.degraded_percent</key>
@@ -2831,29 +1012,10 @@ Full cluster issues usually arise when testing how Ceph handles an OSD failure o
         </graph>
         <graph>
             <name>Moving PGs</name>
-            <width>900</width>
-            <height>200</height>
-            <yaxismin>0.0000</yaxismin>
-            <yaxismax>100.0000</yaxismax>
-            <show_work_period>1</show_work_period>
-            <show_triggers>1</show_triggers>
-            <type>0</type>
-            <show_legend>1</show_legend>
-            <show_3d>0</show_3d>
-            <percent_left>0.0000</percent_left>
-            <percent_right>0.0000</percent_right>
-            <ymin_type_1>1</ymin_type_1>
-            <ymax_type_1>0</ymax_type_1>
-            <ymin_item_1>0</ymin_item_1>
-            <ymax_item_1>0</ymax_item_1>
+            <ymin_type_1>FIXED</ymin_type_1>
             <graph_items>
                 <graph_item>
-                    <sortorder>0</sortorder>
-                    <drawtype>0</drawtype>
                     <color>C80000</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
                     <item>
                         <host>Template Ceph</host>
                         <key>ceph.recovering</key>
@@ -2861,11 +1023,7 @@ Full cluster issues usually arise when testing how Ceph handles an OSD failure o
                 </graph_item>
                 <graph_item>
                     <sortorder>1</sortorder>
-                    <drawtype>0</drawtype>
                     <color>00C800</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
                     <item>
                         <host>Template Ceph</host>
                         <key>ceph.remapped</key>
@@ -2873,11 +1031,7 @@ Full cluster issues usually arise when testing how Ceph handles an OSD failure o
                 </graph_item>
                 <graph_item>
                     <sortorder>2</sortorder>
-                    <drawtype>0</drawtype>
                     <color>0000C8</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
                     <item>
                         <host>Template Ceph</host>
                         <key>ceph.peering</key>
@@ -2887,29 +1041,12 @@ Full cluster issues usually arise when testing how Ceph handles an OSD failure o
         </graph>
         <graph>
             <name>OSDs</name>
-            <width>900</width>
-            <height>200</height>
-            <yaxismin>0.0000</yaxismin>
-            <yaxismax>100.0000</yaxismax>
-            <show_work_period>1</show_work_period>
-            <show_triggers>1</show_triggers>
-            <type>0</type>
-            <show_legend>1</show_legend>
-            <show_3d>0</show_3d>
-            <percent_left>0.0000</percent_left>
-            <percent_right>0.0000</percent_right>
-            <ymin_type_1>1</ymin_type_1>
-            <ymax_type_1>1</ymax_type_1>
-            <ymin_item_1>0</ymin_item_1>
-            <ymax_item_1>0</ymax_item_1>
+            <ymin_type_1>FIXED</ymin_type_1>
+            <ymax_type_1>FIXED</ymax_type_1>
             <graph_items>
                 <graph_item>
-                    <sortorder>0</sortorder>
-                    <drawtype>5</drawtype>
+                    <drawtype>GRADIENT_LINE</drawtype>
                     <color>00EE00</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
                     <item>
                         <host>Template Ceph</host>
                         <key>ceph.osd_up</key>
@@ -2917,11 +1054,8 @@ Full cluster issues usually arise when testing how Ceph handles an OSD failure o
                 </graph_item>
                 <graph_item>
                     <sortorder>1</sortorder>
-                    <drawtype>2</drawtype>
+                    <drawtype>BOLD_LINE</drawtype>
                     <color>CC0000</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
                     <item>
                         <host>Template Ceph</host>
                         <key>ceph.osd_in</key>
@@ -2931,29 +1065,11 @@ Full cluster issues usually arise when testing how Ceph handles an OSD failure o
         </graph>
         <graph>
             <name>PGS</name>
-            <width>900</width>
-            <height>200</height>
-            <yaxismin>0.0000</yaxismin>
-            <yaxismax>100.0000</yaxismax>
-            <show_work_period>1</show_work_period>
-            <show_triggers>1</show_triggers>
-            <type>0</type>
-            <show_legend>1</show_legend>
-            <show_3d>0</show_3d>
-            <percent_left>0.0000</percent_left>
-            <percent_right>0.0000</percent_right>
-            <ymin_type_1>1</ymin_type_1>
-            <ymax_type_1>0</ymax_type_1>
-            <ymin_item_1>0</ymin_item_1>
-            <ymax_item_1>0</ymax_item_1>
+            <ymin_type_1>FIXED</ymin_type_1>
             <graph_items>
                 <graph_item>
-                    <sortorder>0</sortorder>
-                    <drawtype>5</drawtype>
+                    <drawtype>GRADIENT_LINE</drawtype>
                     <color>0000EE</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
                     <item>
                         <host>Template Ceph</host>
                         <key>ceph.active</key>
@@ -2961,11 +1077,8 @@ Full cluster issues usually arise when testing how Ceph handles an OSD failure o
                 </graph_item>
                 <graph_item>
                     <sortorder>1</sortorder>
-                    <drawtype>2</drawtype>
+                    <drawtype>BOLD_LINE</drawtype>
                     <color>00EE00</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
                     <item>
                         <host>Template Ceph</host>
                         <key>ceph.clean</key>
@@ -2975,29 +1088,10 @@ Full cluster issues usually arise when testing how Ceph handles an OSD failure o
         </graph>
         <graph>
             <name>Problem PGs</name>
-            <width>900</width>
-            <height>200</height>
-            <yaxismin>0.0000</yaxismin>
-            <yaxismax>100.0000</yaxismax>
-            <show_work_period>1</show_work_period>
-            <show_triggers>1</show_triggers>
-            <type>0</type>
-            <show_legend>1</show_legend>
-            <show_3d>0</show_3d>
-            <percent_left>0.0000</percent_left>
-            <percent_right>0.0000</percent_right>
-            <ymin_type_1>1</ymin_type_1>
-            <ymax_type_1>0</ymax_type_1>
-            <ymin_item_1>0</ymin_item_1>
-            <ymax_item_1>0</ymax_item_1>
+            <ymin_type_1>FIXED</ymin_type_1>
             <graph_items>
                 <graph_item>
-                    <sortorder>0</sortorder>
-                    <drawtype>0</drawtype>
                     <color>00EE00</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
                     <item>
                         <host>Template Ceph</host>
                         <key>ceph.degraded</key>
@@ -3005,11 +1099,7 @@ Full cluster issues usually arise when testing how Ceph handles an OSD failure o
                 </graph_item>
                 <graph_item>
                     <sortorder>1</sortorder>
-                    <drawtype>0</drawtype>
                     <color>0000C8</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
                     <item>
                         <host>Template Ceph</host>
                         <key>ceph.incomplete</key>
@@ -3017,11 +1107,7 @@ Full cluster issues usually arise when testing how Ceph handles an OSD failure o
                 </graph_item>
                 <graph_item>
                     <sortorder>2</sortorder>
-                    <drawtype>0</drawtype>
                     <color>C800C8</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
                     <item>
                         <host>Template Ceph</host>
                         <key>ceph.inconsistent</key>
@@ -3029,11 +1115,7 @@ Full cluster issues usually arise when testing how Ceph handles an OSD failure o
                 </graph_item>
                 <graph_item>
                     <sortorder>3</sortorder>
-                    <drawtype>0</drawtype>
                     <color>EE0000</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
                     <item>
                         <host>Template Ceph</host>
                         <key>ceph.down</key>
